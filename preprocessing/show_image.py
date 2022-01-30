@@ -9,6 +9,11 @@ import cv2
 import numpy as np
 from PIL import Image
 
+#This is the code to show image from our automatic detected image
+#label_txt = "./test.txt"
+#image_info = open(label_txt).readlines()[0].split()
+#image_path ="D\Study_Materials\Research_module\Research\Beetles_Detection\preprocessing\DSC05280_046.jpg"
+
 ID = random.randint(0, 200)
 label_txt = "./beetles_train.txt"
 image_info = open(label_txt).readlines()[ID].split()
