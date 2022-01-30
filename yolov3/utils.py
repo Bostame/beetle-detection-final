@@ -148,6 +148,7 @@ def draw_bbox(image, bboxes, CLASSES=YOLO_COCO_CLASSES, show_label=True, show_co
 
         # put object rectangle
         cv2.rectangle(image, (x1, y1), (x2, y2), bbox_color, bbox_thick*2)
+        print((x1, y1), (x2, y2))
 
         if show_label:
             # get text label
@@ -300,7 +301,17 @@ def detect_image(Yolo, image_path, output_path, input_size=416, show=False, CLAS
 
     image = draw_bbox(original_image, bboxes, CLASSES=CLASSES, rectangle_colors=rectangle_colors)
     # CreateXMLfile("XML_Detections", str(int(time.time())), original_image, bboxes, read_class_names(CLASSES))
+	
+    print("BBOXS", bboxes, read_class_names(CLASSES), image_path)
 
+    save_text = []
+    save_text.append(image_path)
+    save_text.append((bboxes))
+    print(save_text)
+    np.savetxt('output1.txt', save_text, delimiter=" ", fmt="%s")
+    np.savetxt('output.txt',bboxes, delimiter=" ", fmt="%s")
+    
+    
     if output_path != '': cv2.imwrite(output_path, image)
     if show:
         # Show the image
