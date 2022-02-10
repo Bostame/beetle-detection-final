@@ -10,16 +10,16 @@ import numpy as np
 from PIL import Image
 
 #This is the code to show image from our automatic detected image
-#label_txt = "./test.txt"
-#image_info = open(label_txt).readlines()[0].split()
-#image_path ="D\Study_Materials\Research_module\Research\Beetles_Detection\preprocessing\DSC05280_046.jpg"
+label_txt = "./test.txt"
+image_info = open(label_txt).readlines()[8].split()
+image_path = "D:/Study_Materials/Research_module/Research/Beetles_Detection/IMAGES/test_dataset/DSC04125_057.jpg"
 
-ID = random.randint(0, 200)
-label_txt = "./beetles_train.txt"
-image_info = open(label_txt).readlines()[ID].split()
-
-image_path = image_info[0]
+#ID = random.randint(0, 200)
+#label_txt = "./beetles_train.txt"
+#image_info = open(label_txt).readlines()[ID].split()
+#image_path = image_info[0]
 image = cv2.imread(image_path)
+
 for bbox in image_info[1:]:
     bbox = bbox.split(",")
     image = cv2.rectangle(image,(int(float(bbox[0])),
