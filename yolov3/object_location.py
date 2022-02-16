@@ -38,9 +38,9 @@ def detect_loc(Yolo, image_path, input_size=416,
     bbox2 = str(bbox2).replace(' ', '')
     save_text.append(bbox2)
     print(save_text)
-    '''for ele in check_list:
-        if isinstance(ele, int):'''
-    with open('D:\Study_Materials\Research_module\Research\Beetles_Detection\output.txt', 'a') as file:
-        file.write(' '.join(map(str, save_text)).replace('[', '').replace(']', '').replace(',0,', ',0 ')+'\n')
-        '''else:
-            continue'''
+    for ele in check_list:
+        if isinstance(ele, int):
+            with open('/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/output.txt', 'a') as file:
+                file.write(' '.join(map(str, save_text)).replace('[', '').replace(']', '').replace(',0,', ',0 ')+'\n')
+        else:
+            continue
