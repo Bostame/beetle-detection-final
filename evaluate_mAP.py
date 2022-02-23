@@ -293,5 +293,5 @@ if __name__ == '__main__':
         signature_keys = list(saved_model_loaded.signatures.keys())
         yolo = saved_model_loaded.signatures['serving_default']
 
-    testset = Dataset('test', TEST_INPUT_SIZE=YOLO_INPUT_SIZE)
+    testset = Dataset('test1', TEST_INPUT_SIZE=YOLO_INPUT_SIZE)
     get_mAP(yolo, testset, score_threshold=0.05, iou_threshold=0.50, TEST_INPUT_SIZE=YOLO_INPUT_SIZE)

@@ -42,7 +42,7 @@ def main():
     writer = tf.summary.create_file_writer(TRAIN_LOGDIR)
 
     trainset = Dataset('train')
-    testset = Dataset('test')
+    testset = Dataset('test1')
 
     steps_per_epoch = len(trainset)
     global_steps = tf.Variable(1, trainable=False, dtype=tf.int64)

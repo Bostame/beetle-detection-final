@@ -3,7 +3,7 @@
 #   File name   : detect_mnist.py
 #   Author      : Bostame Md Bayazid
 #   Purpose      : For research module of masters course
-#   Description : beetles detection from test set example
+#   Description : beetles detection from test1 set example
 #
 #================================================================
 import os

@@ -5,11 +5,10 @@ from tqdm import tqdm
 Image.MAX_IMAGE_PIXELS = None # to avoid image size warning
 
 #imgdir = "D:/thesis_dataset/images/" #working directory
-imgdir = '/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test'
+imgdir = '/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test1'
 # if you want file of a specific extension (.png):
 filelist = [f for f in glob.glob(imgdir + "**/**/*.jpg", recursive=True)]
 savedir = "IMAGES/"
-print(filelist)
 
 
 

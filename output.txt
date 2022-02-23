@@ -1,12 +1,31 @@
-/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test/DSC03999_084.jpg 28,219,78,273,0
-/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test/DSC03999_084.jpg 28,219,78,273,0
-/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test/DSC03999_084.jpg 28,219,78,273,0
-/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test/DSC03999_084.jpg 28,219,78,273,0
-/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test/DSC03999_084.jpg 28,219,78,273,0
-/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test/DSC03999_084.jpg 28,219,78,273,0
-/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test/DSC07364_029.jpg 172,204,226,273,0
-/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test/DSC07364_029.jpg 172,204,226,273,0
-/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test/DSC07364_029.jpg 172,204,226,273,0
-/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test/DSC07364_029.jpg 172,204,226,273,0
-/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test/DSC07364_029.jpg 172,204,226,273,0
-/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test/DSC07364_029.jpg 172,204,226,273,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC06515_053.jpg 11,141,53,178,0 280,241,321,282,0 129,42,174,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC07945_001.jpg 331,55,403,118,0 188,297,232,343,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC06508_041.jpg 395,134,438,171,0 290,252,328,290,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC04589_015.jpg 56,459,119,511,0 320,76,376,135,0 396,434,452,491,0 334,465,388,511,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC06049_057.jpg 192,219,251,258,0 450,369,504,433,0 395,2,456,58,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/IMG_4781_049.jpg 317,42,375,98,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC07952_073.jpg 259,83,311,128,0 194,14,248,70,0 454,149,511,210,0 217,459,261,499,0 81,301,123,343,0 401,198,448,240,0 109,224,151,266,0 20,361,65,407,0 232,21,266,0 359,101,398,140,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/IMG_4264_052.jpg 124,36,164,72,0 100,408,141,441,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/IMG_4872_005.jpg 362,65,408,112,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/IMG_5067_069.jpg 270,446,308,486,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/IMG_3946_046.jpg 358,42,407,87,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC05306_069.jpg 414,167,445,196,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/IMG_3864_035.jpg 445,56,511,106,0 225,190,270,236,0 102,333,153,380,0 316,221,359,262,0 220,242,259,280,0 398,141,437,182,0 82,323,142,377,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC05550_051.jpg 479,0 511,25,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC06515_053.jpg 11,141,53,178,0 280,241,321,282,0 129,42,174,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC07945_001.jpg 331,55,403,118,0 188,297,232,343,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC06515_053.jpg 11,141,53,178,0 280,241,321,282,0 129,42,174,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC07945_001.jpg 331,55,403,118,0 188,297,232,343,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC06508_041.jpg 395,134,438,171,0 290,252,328,290,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC04589_015.jpg 56,459,119,511,0 320,76,376,135,0 396,434,452,491,0 334,465,388,511,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC06049_057.jpg 192,219,251,258,0 450,369,504,433,0 395,2,456,58,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/IMG_4781_049.jpg 317,42,375,98,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC07952_073.jpg 259,83,311,128,0 194,14,248,70,0 454,149,511,210,0 217,459,261,499,0 81,301,123,343,0 401,198,448,240,0 109,224,151,266,0 20,361,65,407,0 232,21,266,0 359,101,398,140,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/IMG_4264_052.jpg 124,36,164,72,0 100,408,141,441,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/IMG_4872_005.jpg 362,65,408,112,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/IMG_5067_069.jpg 270,446,308,486,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/IMG_3946_046.jpg 358,42,407,87,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC06515_053.jpg 11,141,53,178,0 280,241,321,282,0 129,42,174,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC07945_001.jpg 331,55,403,118,0 188,297,232,343,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC06515_053.jpg 11,141,53,178,0 280,241,321,282,0 129,42,174,0
+/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images/85.0/DSC07945_001.jpg 331,55,403,118,0 188,297,232,343,0

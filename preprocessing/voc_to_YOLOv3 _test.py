@@ -9,7 +9,7 @@ from os import getcwd
 import os
 
 
-dataset_test = 'Dataset\\test\\'
+dataset_test = 'Dataset\\test1\\'
 dataset_file = 'beetles_test.txt'
 classes_file = dataset_file[:-4]+'_classes.txt'
 
