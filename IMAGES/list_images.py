@@ -2,20 +2,17 @@ import os
 import glob
 from PIL import Image
 from tqdm import tqdm
-Image.MAX_IMAGE_PIXELS = None # to avoid image size warning
 
-#imgdir = "D:/thesis_dataset/images/" #working directory
+Image.MAX_IMAGE_PIXELS = None  # to avoid image size warning
+
+# imgdir = "D:/thesis_dataset/images/" #working directory
 imgdir = '/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test1'
 # if you want file of a specific extension (.png):
 filelist = [f for f in glob.glob(imgdir + "**/**/*.jpg", recursive=True)]
 savedir = "IMAGES/"
 
-
-
-
-with open('../IMAGES/test_list.txt', "w", newline='\n') as file:
+with open("../preprocessing/beetles_train_classes.txt", "w", newline='\n') as file:
     file.write('\n'.join(map(str, filelist)))
-
 
 '''
 start_pos = start_x, start_y = (0, 0)

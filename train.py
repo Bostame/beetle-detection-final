@@ -9,7 +9,7 @@
 #
 #================================================================
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'false'
 from tensorflow.python.client import device_lib
 print(device_lib.list_local_devices())
@@ -42,7 +42,7 @@ def main():
     writer = tf.summary.create_file_writer(TRAIN_LOGDIR)
 
     trainset = Dataset('train')
-    testset = Dataset('test1')
+    testset = Dataset('test')
 
     steps_per_epoch = len(trainset)
     global_steps = tf.Variable(1, trainable=False, dtype=tf.int64)

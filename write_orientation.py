@@ -8,15 +8,14 @@
 # ================================================================
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 from yolov3.utils import Load_Yolo_model
 from yolov3.object_location import detect_loc, tf
 import glob
 
-#label_txt = "/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test_list.txt"
-#imgdir = '/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test1'
 label_txt = '/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/image_list.txt'
 imgdir = '/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/images'
+
 filelist = [f for f in glob.iglob(imgdir + "**/**/**/**/*.jpg", recursive=True)]
 
 yolo = Load_Yolo_model()

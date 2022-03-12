@@ -1,7 +1,8 @@
 **/logs
 **/logs/debug.log
 *.log
-**/checkpoints
+/checkpoints
+/model_data
 # JPEG
 *.jpg
 *.jpeg

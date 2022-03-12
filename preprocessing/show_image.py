@@ -11,8 +11,8 @@ from PIL import Image
 
 #This is the code to show image from our automatic detected image
 label_txt = "/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/output.txt"
-image_info = open(label_txt).readlines()[1].split()
-image_path = "/IMAGES/test1/DSC03999_084.jpg"
+image_info = open(label_txt).readlines()[28].split()
+image_path = "/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/IMAGES/test1/DSC04124_03_05.png"
 
 image = cv2.imread(image_path)
 
