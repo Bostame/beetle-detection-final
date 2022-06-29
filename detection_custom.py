@@ -14,11 +14,12 @@ import tensorflow as tf
 from yolov3.utils import detect_image, detect_realtime, detect_video, Load_Yolo_model, detect_video_realtime_mp
 from yolov3.configs import *
 
-image_path   = "DSC05500_001.jpg"
+image_path   = "./experiments/Train.DSC04124.x3072.y3072.JPG"
 #video_path   = "./IMAGES/test1_Trim.mp4"
 
+
 yolo = Load_Yolo_model()
-detect_image(yolo, image_path, "DSC05500_001res.jpg", input_size=YOLO_INPUT_SIZE, show=True, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))
+detect_image(yolo, image_path, "./ex/Train.DSC04124.x3072.y3072.JPG", input_size=YOLO_INPUT_SIZE, show=True, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))
 #detect_video(yolo, video_path, './IMAGES/test1_Trim_1_detection.mp4', input_size=YOLO_INPUT_SIZE, show=False, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))
 #detect_realtime(yolo, '', input_size=YOLO_INPUT_SIZE, show=True, CLASSES=TRAIN_CLASSES, rectangle_colors=(255, 0, 0))
 

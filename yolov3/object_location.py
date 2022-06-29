@@ -1,4 +1,5 @@
 import numbers
+import os
 
 import cv2
 import tqdm
@@ -40,5 +41,8 @@ def detect_loc(Yolo, image_path, input_size=512,
     print(save_text)
 
     if any(isinstance(value, numbers.Number) for value in check):
-        with open('/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/output.txt', 'a') as file:
+        with open('/home/mbostame/Documents/thesis_project/beetle_detection/beetle-detection/flower.txt', 'a') as file:
             file.write(save_text)
+
+    else:
+        os.remove(image_path)
