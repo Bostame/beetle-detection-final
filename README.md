@@ -72,7 +72,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 This project is inspired by the YOLOv4 object detection model and aims to address the challenges in potato beetle detection in agriculture.
-
----
-
-Enjoy using the Potato Beetle Detection System with YOLOv4! If you have any questions or need assistance, feel free to reach out to the project maintainers.
