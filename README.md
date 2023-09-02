@@ -50,7 +50,7 @@ To use the system, follow these steps:
 
 5. **User Interface (Optional)**: Implement a user-friendly interface (not included in this repository) to facilitate semi-automated image annotation and detection.
 
-## Directory Structure
+## Directory Structure (this is not the current structure but we aim to follow it in the final application development)
 
 - `data/`: Placeholder for dataset and annotations (not included in this repository).
 - `model/`: Store your trained YOLOv4 model here.
