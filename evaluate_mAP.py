@@ -1,4 +1,11 @@
-
+#================================================================
+#
+#   File name   : detection_custom.py
+#   Author      : Bostame Md Bayazid
+#   Purpose      : For research module of masters course
+#   Description : object detection image and video example
+#
+#================================================================
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 import cv2
