@@ -1,3 +1,10 @@
+#================================================================
+#   Author      : Bostame Md Bayazid
+#   Purpose   : For research module of masters program
+#   Description : show random image from created dataset
+#================================================================
+
+
 import sys
 import zipfile
 
