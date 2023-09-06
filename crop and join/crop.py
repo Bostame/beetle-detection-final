@@ -1,3 +1,12 @@
+
+#================================================================
+#
+#   File name   : crop.py
+#   Author      : Bostame Md Bayazid
+#   Purpose      : For research module of masters course
+#   Description : object detection image and video example
+#
+#================================================================
 import PIL
 from PIL import Image
 
