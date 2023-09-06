@@ -1,9 +1,9 @@
 #================================================================
 #
-#   File name   : detect_mnist.py
+#   File name   : detect_beetles.py
 #   Author      : Bostame Md Bayazid
 #   Purpose      : For research module of masters course
-#   Description : beetles detection from test1 set example
+#   Description : object detection image and video example
 #
 #================================================================
 import os
