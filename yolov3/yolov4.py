@@ -1,12 +1,8 @@
+
 #================================================================
-#
-#   File name   : yolov4.py
-#   Author      : PyLessons
-#   Created date: 2020-09-31
-#   Website     : https://pylessons.com/
-#   GitHub      : https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3
-#   Description : main yolov3 & yolov4 functions
-#
+#   Author      : Bostame Md Bayazid
+#   Purpose      : For research module of masters course
+#   Description : object detection image and video example
 #================================================================
 import numpy as np
 import tensorflow as tf
