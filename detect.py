@@ -1,6 +1,6 @@
 #================================================================
 #
-#   File name   : detection_custom.py
+#   File name   : detect.py
 #   Author      : Bostame Md Bayazid
 #   Purpose      : For research module of masters course
 #   Description : object detection image and video example
