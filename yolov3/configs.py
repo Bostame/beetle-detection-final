@@ -1,9 +1,9 @@
-#===============================================================
-#   File name : voc_to_YOLOv3.py
-#   Author    : Bostame Md Bayazid
-#   Purpose   : For research module of masters program
-#   Functions : yolov3 configuration file
-#===============================================================
+
+#================================================================
+#   Author      : Bostame Md Bayazid
+#   Purpose      : For research module of masters course
+#   Description : object detection image and video example
+#================================================================
 
 
 # YOLO options
