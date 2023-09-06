@@ -1,3 +1,11 @@
+#================================================================
+#
+#   File name   : join.py
+#   Author      : Bostame Md Bayazid
+#   Purpose      : For research module of masters course
+#   Description : object detection image and video example
+#
+#================================================================
 import os
 from PIL import Image
 
